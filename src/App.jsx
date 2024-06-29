@@ -1,7 +1,11 @@
+import Header from "./components/Header"
+import MainDashboard from "./components/MainDashboard"
+
 function App() {
   return (
-    <div className="main-div bg-red-300">
-      <h3 className="text-3xl underline">Test</h3>
+    <div className="main-div">
+      <Header />
+      <MainDashboard />
     </div>
   )
 }

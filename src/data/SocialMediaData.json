@@ -1,0 +1,26 @@
+[
+    {
+        "platform": "Facebook",
+        "username": "nathanf",
+        "followers": 1987,
+        "dailyIncrease": 12
+    },
+    {
+        "platform": "Twitter",
+        "username": "nathanf",
+        "followers": 1044,
+        "dailyIncrease": 99
+    },
+    {
+        "platform": "Instagram",
+        "username": "nathanf",
+        "followers": 11000,
+        "dailyIncrease": 1099
+    },
+    {
+        "platform": "YouTube",
+        "username": "nathanf",
+        "followers": 8239,
+        "dailyIncrease": -144
+    }
+]
