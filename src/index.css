@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -46,9 +46,16 @@
   --light-very-dark-text: hsl(230, 17%, 14%);
 }
 
+img,
+picture {
+  max-width: 100%;
+  display: block;
+  line-height: 0;
+}
+
 /* Typography */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
@@ -56,19 +63,85 @@ body {
   padding: 2rem 5.5rem;
 }
 
-/* body.dark {
-  --bg-color: var(--dark-bg);
-  --text-color: var(--white-text);
+.main-card-light {
+  @apply bg-lightCardBg text-lightVeryDarkText;
 }
 
-body.light {
-  --bg-color: var(--light-bg);
-  --text-color: var(--light-dark-grayish-text);
-} */
+.main-card-light h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--light-very-dark-text);
+}
 
-/* .custom-button {
-  @apply bg-brightRed text-whiteText font-bold py-2 px-4 rounded;
-} */
+.followers {
+  letter-spacing: 0.15rem;
+}
+
+/* Main Card Borders */
+.gradient-border-top-ig {
+  position: relative;
+}
+
+.gradient-border-top-ig::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px; /* Adjust the height to your desired border width */
+  background: var(--instagram);
+  z-index: 1; /* Ensure it appears above the main content */
+  border-radius: 4px 4px 0 0;
+}
+
+.gradient-border-top-yt {
+  position: relative;
+}
+
+.gradient-border-top-yt::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px; /* Adjust the height to your desired border width */
+  background: var(--youtube);
+  z-index: 1; /* Ensure it appears above the main content */
+  border-radius: 4px 4px 0 0;
+}
+
+.gradient-border-top-tw {
+  position: relative;
+}
+
+.gradient-border-top-tw::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px; /* Adjust the height to your desired border width */
+  background: var(--twitter);
+  z-index: 1; /* Ensure it appears above the main content */
+  border-radius: 4px 4px 0 0;
+}
+
+.gradient-border-top-fb {
+  position: relative;
+}
+
+.gradient-border-top-fb::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px; /* Adjust the height to your desired border width */
+  background: var(--facebook);
+  z-index: 1; /* Ensure it appears above the main content */
+  border-radius: 4px 4px 0 0;
+}
+
 
 /* Toggle Button Styles */
 .toggle-container {
@@ -100,11 +173,3 @@ body.light {
 .toggle-container.toggled .toggle-button {
   transform: translateX(25px);
 }
-
-
-
-
-
-
-
-
