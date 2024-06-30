@@ -1,8 +1,13 @@
+import facebookIcon from "../images/icon-facebook.svg";
+import instagramIcon from "../images/icon-instagram.svg";
+import twitterIcon from "../images/icon-twitter.svg";
+import youtubeIcon from "../images/icon-youtube.svg";
+
 export const platformIcons = {
-  Facebook: "/images/icon-facebook.svg",
-  Twitter: "/images/icon-twitter.svg",
-  Instagram: "/images/icon-instagram.svg",
-  YouTube: "/images/icon-youtube.svg",
+  Facebook: facebookIcon,
+  Twitter: twitterIcon,
+  Instagram: instagramIcon,
+  YouTube: youtubeIcon,
 };
 
 export const borderStyle = {
