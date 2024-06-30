@@ -1,0 +1,50 @@
+[
+  {
+    "platform": "Facebook",
+    "statistic": "Page Views",
+    "count": 87,
+    "percent": 3
+  },
+  {
+    "platform": "Facebook",
+    "statistic": "Likes",
+    "count": 52,
+    "percent": -2
+  },
+  {
+    "platform": "Instagram",
+    "statistic": "Likes",
+    "count": 5462,
+    "percent": 2257
+  },
+  {
+    "platform": "Instagram",
+    "statistic": "Profile Views",
+    "count": 52000,
+    "percent": 1365
+  },
+  {
+    "platform": "Twitter",
+    "statistic": "Retweets",
+    "count": 117,
+    "percent": 303
+  },
+  {
+    "platform": "Twitter",
+    "statistic": "Likes",
+    "count": 507,
+    "percent": 553
+  },
+  {
+    "platform": "YouTube",
+    "statistic": "Likes",
+    "count": 107,
+    "percent": -19
+  },
+  {
+    "platform": "YouTube",
+    "statistic": "Total Views",
+    "count": 1407,
+    "percent": -12
+  }
+]

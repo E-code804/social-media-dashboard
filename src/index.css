@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -67,10 +67,48 @@ body {
   @apply bg-lightCardBg text-lightVeryDarkText;
 }
 
-.main-card-light h1 {
+.main-card-light:hover {
+  background: hsl(229, 33%, 90%);
+}
+
+.main-card-dark {
+  @apply bg-darkCardBg text-darkDesaturatedText;
+}
+
+.main-card-dark:hover {
+  background: hsl(230, 23%, 25%);
+}
+
+.main-followers-light {
   font-size: 3rem;
   font-weight: 700;
   color: var(--light-very-dark-text);
+}
+
+.main-followers-dark {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--white-text);
+}
+
+.overview-title-light {
+  @apply text-lightDarkGrayishText
+}
+
+.overview-title-dark {
+  @apply text-whiteText
+}
+
+.sub-count-light {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--light-very-dark-text);
+}
+
+.sub-count-dark {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--white-text);
 }
 
 .followers {
