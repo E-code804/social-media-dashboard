@@ -92,11 +92,11 @@ body {
 }
 
 .overview-title-light {
-  @apply text-lightDarkGrayishText
+  @apply text-lightDarkGrayishText;
 }
 
 .overview-title-dark {
-  @apply text-whiteText
+  @apply text-whiteText;
 }
 
 .sub-count-light {
@@ -121,7 +121,7 @@ body {
 }
 
 .gradient-border-top-ig::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -137,7 +137,7 @@ body {
 }
 
 .gradient-border-top-yt::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -153,7 +153,7 @@ body {
 }
 
 .gradient-border-top-tw::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -169,7 +169,7 @@ body {
 }
 
 .gradient-border-top-fb::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -180,11 +180,10 @@ body {
   border-radius: 4px 4px 0 0;
 }
 
-
 /* Toggle Button Styles */
 .toggle-container {
-  width: 50px;
-  height: 25px;
+  width: 60px;
+  height: 30px;
   background: var(--dark-toggle);
   border-radius: 25px;
   position: relative;
@@ -200,14 +199,13 @@ body {
 .toggle-button {
   width: 23px;
   height: 23px;
-  background-color: #fff;
   border-radius: 50%;
   position: absolute;
-  top: 1px;
-  left: 1px;
+  top: 3.25px;
+  left: 2px;
   transition: transform 0.3s;
 }
 
 .toggle-container.toggled .toggle-button {
-  transform: translateX(25px);
+  transform: translateX(31.75px);
 }

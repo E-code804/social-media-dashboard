@@ -11,7 +11,9 @@ const Header = ({ isDarkMode, handleToggle }) => {
           Social Media Dashboard
         </h1>
 
-        <p className={`text-sm font-semibold ${isDarkMode ? "text-darkDesaturatedText" : "text-lightDarkGrayishText"}`}>
+        <p
+          className={`text-base font-semibold ${isDarkMode ? "text-darkDesaturatedText" : "text-lightDarkGrayishText"}`}
+        >
           Total Followers: 23,004
         </p>
       </div>
@@ -19,7 +21,7 @@ const Header = ({ isDarkMode, handleToggle }) => {
       <div className="w-full h-[1px] bg-lightDarkGrayishText my-4 sm:hidden" />
 
       <div className="flex justify-between w-full items-center space-x-3 sm:justify-normal sm:w-auto">
-        <p className={`text-sm font-semibold ${pToggle}`}>{isDarkMode ? "Dark Mode" : "Light Mode"}</p>
+        <p className={`text-lg font-semibold ${pToggle}`}>{isDarkMode ? "Dark Mode" : "Light Mode"}</p>
 
         <Toggle handleToggle={handleToggle} isDarkMode={isDarkMode} />
       </div>
